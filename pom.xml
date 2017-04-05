@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- If you are not familiar with maven please ignore this file.
+    Setting up and running maven build is not part of the test. -->
+
+    <groupId>plumbee-codetest-actionscript</groupId>
+    <artifactId>test</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <packaging>swc</packaging>
+
+    <properties>
+        <flexmojos.version>4.0-beta-3</flexmojos.version>
+        <flex.version>4.5.1.21328</flex.version>
+        <flexunit.version>4.0-rc-1</flexunit.version>
+    </properties>
+
+    <build>
+        <sourceDirectory>src/main/actionscript</sourceDirectory>
+        <testSourceDirectory>src/test/actionscript</testSourceDirectory>
+
+        <plugins>
+            <plugin>
+                <groupId>org.sonatype.flexmojos</groupId>
+                <artifactId>flexmojos-maven-plugin</artifactId>
+                <version>${flexmojos.version}</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <storepass/>
+                    <targetPlayer>10.0.0</targetPlayer>
+                    <footer>Plumbee ActionScript Test</footer>
+                    <leftFramesetWidth>320</leftFramesetWidth>
+                    <mainTitle>Plumbee ActionScript Test</mainTitle>
+                    <windowTitle>Plumbee ActionScript Test</windowTitle>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>asdoc</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.adobe.flex</groupId>
+                        <artifactId>compiler</artifactId>
+                        <version>${flex.version}</version>
+                        <type>pom</type>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>flex-mojos-repository</id>
+            <url>http://repository.sonatype.org/content/groups/flexgroup/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>flex-mojos-plugin-repository</id>
+            <url>http://repository.sonatype.org/content/groups/flexgroup/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.adobe.flex.framework</groupId>
+            <artifactId>flex-framework</artifactId>
+            <version>${flex.version}</version>
+            <type>pom</type>
+        </dependency>
+
+        <dependency>
+            <groupId>com.adobe.flexunit</groupId>
+            <artifactId>flexunit</artifactId>
+            <version>${flexunit.version}</version>
+            <type>swc</type>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

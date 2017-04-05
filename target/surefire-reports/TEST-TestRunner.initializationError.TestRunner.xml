@@ -1,0 +1,30 @@
+<testsuite errors='0' failures='1' name='TestRunner.initializationError.TestRunner' tests='1' time='0' ><testcase name="initializationError" time="0">
+  <failure message="No runnable methods" type="TestRunner.initializationError.TestRunner">Error: No runnable methods
+	at org.flexunit.runners::BlockFlexUnit4ClassRunner/validateInstanceMethods()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\runners\BlockFlexUnit4ClassRunner.as:221]
+	at org.flexunit.runners::BlockFlexUnit4ClassRunner/collectInitializationErrors()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\runners\BlockFlexUnit4ClassRunner.as:207]
+	at org.flexunit.runners::ParentRunner/validate()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\runners\ParentRunner.as:267]
+	at org.flexunit.runners::ParentRunner()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\runners\ParentRunner.as:123]
+	at org.flexunit.runners::BlockFlexUnit4ClassRunner()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\runners\BlockFlexUnit4ClassRunner.as:99]
+	at org.flexunit.internals.builders::FlexUnit4Builder/runnerForClass()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\internals\builders\FlexUnit4Builder.as:61]
+	at org.flexunit.runners.model::RunnerBuilderBase/safeRunnerForClass()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\runners\model\RunnerBuilderBase.as:63]
+	at org.flexunit.internals.builders::AllDefaultPossibilitiesBuilder/runnerForClass()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\internals\builders\AllDefaultPossibilitiesBuilder.as:106]
+	at org.flexunit.runners.model::RunnerBuilderBase/safeRunnerForClass()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\runners\model\RunnerBuilderBase.as:63]
+	at org.flexunit.runners.model::RunnerBuilderBase/localRunners()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\runners\model\RunnerBuilderBase.as:119]
+	at org.flexunit.runners.model::RunnerBuilderBase/runners()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\runners\model\RunnerBuilderBase.as:87]
+	at org.flexunit.runners::Suite()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\runners\Suite.as:170]
+	at org.flexunit.runner::Request$/classes()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\runner\Request.as:201]
+	at Function/http://adobe.com/AS3/2006/builtin::apply()
+	at org.flexunit.runner::FlexUnitCore/runClasses()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\runner\FlexUnitCore.as:191]
+	at Function/http://adobe.com/AS3/2006/builtin::apply()
+	at org.flexunit.runner::FlexUnitCore/run()[C:\Users\dmoore\Documents\_Production\Flex Unit 4\GIT\FlexUnit4\src\org\flexunit\runner\FlexUnitCore.as:171]
+	at Function/http://adobe.com/AS3/2006/builtin::apply()
+	at org.sonatype.flexmojos.unitestingsupport.flexunit4::FlexUnit4Listener/run()[F:\flexmojos\target\checkout\flexmojos-testing\flexmojos-unittest\flexmojos-unittest-flexunit4\src\main\flex\org\sonatype\flexmojos\unitestingsupport\flexunit4\FlexUnit4Listener.as:46]
+	at org.sonatype.flexmojos.unitestingsupport::SocketReporter/runTests()[F:\flexmojos\target\checkout\flexmojos-testing\flexmojos-unittest\flexmojos-unittest-support\src\main\flex\org\sonatype\flexmojos\unitestingsupport\SocketReporter.as:244]
+	at org.sonatype.flexmojos.unitestingsupport::TestApplication/runTests()[F:\flexmojos\target\checkout\flexmojos-testing\flexmojos-unittest\flexmojos-unittest-support\src\main\flex\org\sonatype\flexmojos\unitestingsupport\TestApplication.as:46]
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at mx.core::UIComponent/dispatchEvent()[E:\dev\4.5.1\frameworks\projects\framework\src\mx\core\UIComponent.as:13128]
+	at mx.core::UIComponent/set initialized()[E:\dev\4.5.1\frameworks\projects\framework\src\mx\core\UIComponent.as:1818]
+	at mx.managers::LayoutManager/doPhasedInstantiation()[E:\dev\4.5.1\frameworks\projects\framework\src\mx\managers\LayoutManager.as:842]
+	at mx.managers::LayoutManager/doPhasedInstantiationCallback()[E:\dev\4.5.1\frameworks\projects\framework\src\mx\managers\LayoutManager.as:1180]</failure>
+</testcase></testsuite>

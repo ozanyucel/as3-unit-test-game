@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+  <swf size="8287" compressedSize="3754">
+
+    <!-- Header data (SWF attributes, product info, markers, etc.) -->
+    <headerData totalSize="387">
+      <data type="metaData" size="285"/>
+      <data type="productInfo" size="28"/>
+      <data type="swfHeader" size="21"/>
+      <data type="debugID" size="18"/>
+      <data type="enableDebugger" size="16"/>
+      <data type="fileAttributes" size="6"/>
+      <data type="scriptLimits" size="6"/>
+      <data type="backgroundColor" size="5"/>
+      <data type="endMarker" size="2"/>
+    </headerData>
+
+    <!-- Cumulative frame size summary. -->
+    <frames totalSize="7900">
+      <frame size="7900" frame="1"/>
+    </frames>
+
+    <!-- Actionscript code and constant data. -->
+    <actionScript totalSize="7801">
+      <abc name="com/plumbee/codetest/AnagramGame" size="2903" frame="1"/>
+      <abc name="com/plumbee/codetest/WordDictionary" size="1368" frame="1"/>
+      <abc name="_54a52288ad8e55c7ca7f7c6743f5a839f8f4f9bd4f9d3c44c84d913c94131c12_flash_display_Sprite" size="1192" frame="1"/>
+      <abc name="com/plumbee/codetest/IAnagramGame" size="932" frame="1"/>
+      <abc name="com/plumbee/codetest/IWordDictionary" size="823" frame="1"/>
+      <abc name="com/plumbee/codetest/HighScoreInfo" size="583" frame="1"/>
+    </actionScript>
+
+    <!-- Additional frame tags (symbolClass, exportAssets, showFrame, etc). -->
+    <frameData totalSize="99">
+      <tag type="symbolClass" size="97" frame="1"/>
+      <tag type="showFrame" size="2" frame="1"/>
+    </frameData>
+  </swf>
+</report>

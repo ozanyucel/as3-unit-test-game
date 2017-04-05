@@ -1,0 +1,1 @@
+<testsuite errors='0' failures='0' name='com.plumbee.codetest.AnagramGameTest' tests='2' time='0' ><testcase name="wordsSubmittedBeforeDictionaryIsLoaded_areNotDiscarded" time="0"/><testcase name="afterDictionaryIsLoaded_wordsAreEvaluatedCorrectly" time="0"/></testsuite>
