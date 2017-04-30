@@ -15,8 +15,8 @@ java.io.InvalidClassException: org.apache.velocity.runtime.parser.node.ASTproces
 	<mx:Script>
 		<![CDATA[
 
-import com.plumbee.codetest.AnagramGameTest; AnagramGameTest;
-import com.plumbee.codetest.TestRunner; TestRunner;
+import com.codetest.AnagramGameTest; AnagramGameTest;
+import com.codetest.TestRunner; TestRunner;
 
 
 			private function init():void {
