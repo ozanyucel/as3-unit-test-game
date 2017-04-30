@@ -1,4 +1,4 @@
-package com.plumbee.codetest {
+package com.codetest {
 import flash.events.Event;
 import flash.events.EventDispatcher;
 import flash.net.URLLoader;

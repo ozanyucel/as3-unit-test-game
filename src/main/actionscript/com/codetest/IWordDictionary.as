@@ -1,4 +1,4 @@
-package com.plumbee.codetest {
+package com.codetest {
 import flash.events.IEventDispatcher;
 
 public interface IWordDictionary extends IEventDispatcher {

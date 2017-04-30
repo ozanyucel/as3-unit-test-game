@@ -1,5 +1,4 @@
-package com.plumbee.codetest
-{
+package com.codetest {
 	import flash.events.Event;
 
 public class AnagramGame implements IAnagramGame

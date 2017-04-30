@@ -1,5 +1,4 @@
-package com.plumbee.codetest 
-{
+package com.codetest {
 	/**
 	 * ...
 	 * @author ...

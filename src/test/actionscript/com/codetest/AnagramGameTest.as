@@ -1,4 +1,4 @@
-package com.plumbee.codetest {
+package com.codetest {
 import flash.events.Event;
 import org.flexunit.asserts.assertEquals;
 import org.flexunit.asserts.assertTrue;

@@ -1,6 +1,6 @@
-package com.plumbee.codetest {
+package com.codetest {
 	
-	import com.plumbee.codetest.AnagramGameTest;
+	import com.codetest.AnagramGameTest;
 	import flash.display.Sprite;
 	import org.flexunit.internals.TraceListener;
 	import org.flexunit.runner.FlexUnitCore;

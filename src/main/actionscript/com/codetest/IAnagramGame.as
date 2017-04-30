@@ -1,4 +1,4 @@
-package com.plumbee.codetest {
+package com.codetest {
 /**
  * Service to provide an anagram game.
  * <p/>
